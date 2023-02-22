@@ -1,0 +1,111 @@
+#========================================================================================#
+#             ECHOVIEW CALIBRATION SUPPLEMENT (.ECS) FILE (Nortek Signature)             #
+#                                 5/12/2022 15:25:32.0240                                #
+#========================================================================================#
+#       +----------+   +-----------+   +----------+   +-----------+   +----------+       #
+#       | Default  |-->| Data File |-->| Fileset  |-->| SourceCal |-->| LocalCal |       #
+#       | Settings |   | Settings  |   | Settings |   | Settings  |   | Settings |       #
+#       +----------+   +-----------+   +----------+   +-----------+   +----------+       #
+# - Settings to the right override those to their left.                                  #
+# - See the Help file page "About calibration".                                          #
+#========================================================================================#
+
+Version 1.00
+# no calibration applied 
+
+#========================================================================================#
+#                                    FILESET SETTINGS                                    #
+#========================================================================================#
+
+ SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+ TvgRangeCorrection = None # [None, BySamples, SimradEx500, SimradEx60, BioSonics, Kaijo, PulseLength, Ex500Forced, SimradEK80, Standard]
+# TvgRangeCorrectionOffset = # (samples) [-10000.00..10000.00]
+
+
+#========================================================================================#
+#                                   SOURCECAL SETTINGS                                   #
+#========================================================================================#
+
+SourceCal T1
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 73.80 # (kilohertz) [0.01..10000.00]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+     TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -68
+	# CalibrationOffsetTs =
+
+SourceCal T1 (channel 1)
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 82.30 # (kilohertz) [0.01..10000.00]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+     TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -65
+	# CalibrationOffsetTs =
+
+SourceCal T1 (channel 2)
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 90.90 # (kilohertz) [0.01..10000.00]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+     TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -67
+	# CalibrationOffsetTs =
+
+SourceCal T1 (channel 3)
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 99.40 # (kilohertz) [0.01..10000.00]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+     TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -68
+	# CalibrationOffsetTs =
+
+SourceCal T1 (channel 4)
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 107.90 # (kilohertz) [0.01..10000.00]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+     TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -67
+	# CalibrationOffsetTs =
+
+SourceCal T2
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+     AbsorptionCoefficient = 0.0195
+    # PulseDuration =
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 70.00 # (kilohertz) [0.01..10000.00]
+     MajorAxis3dbBeamAngle = 15.00 # (degrees) [0.00..359.99]
+     MinorAxis3dbBeamAngle = 15.00 # (degrees) [0.00..359.99]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+     TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -50
+	# CalibrationOffsetTs =
+
+SourceCal T3
+     SoundSpeed = 1490.016 # (meters per second) [1400.00..1700.00]
+     AbsorptionCoefficient = 0.035
+    # PulseDuration =
+    # AbsorptionDepth = 10.859 # (meters) [0.000..10000.000]
+     Acidity = 8.100 # (pH) [0.000..14.000]
+     Frequency = 120.00 # (kilohertz) [0.01..10000.00]
+     MajorAxis3dbBeamAngle = 8.70 # (degrees) [0.00..359.99]
+     MinorAxis3dbBeamAngle = 8.70 # (degrees) [0.00..359.99]
+     Temperature = 9.47 # (degrees celsius) [-3.000..100.000]
+    TransmittedPower = 120.00000 # (watts) [1.00000..30000.00000]
+	CalibrationOffsetSv = -50
+	# CalibrationOffsetTs =
+
+
+#========================================================================================#
+#                                    LOCALCAL SETTINGS                                   #
+#========================================================================================#
+
